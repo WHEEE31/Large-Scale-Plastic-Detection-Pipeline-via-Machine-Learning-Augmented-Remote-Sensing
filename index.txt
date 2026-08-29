@@ -1,0 +1,17 @@
+All code developed by myself (Siddharth Nair)
+
+Main code:
+
+ - evaluate.py: contains functions to evaluate the Phase 1 models
+ - preprocess.py: everything regarding data preprocessing from the raw drone collection to per-band datasets, to chipped datasets split into train and test. 
+                  Contains the code for the chipping algorithm which was a large part of Phase 1 preprocessing.
+ - train.py: content for training the Phase 1 models, as well as a base regression model as a tester to make sure data handling throughout the pipeline was correct.
+ - terminal.py: I named it this because it contains the functions used to run certain tasks based on the functions in the other files, kind of like what you do in terminal :D 
+
+Other code:
+ - roboflow folder
+     - conversion.py: convert from tif/png to jpg for roboflow input
+     - xmlcreation.py: create xml files out of the label CSVs from Phase 1
+ - zcode folder
+     - anova.py, stats.py: two files for running statistical analyses on the Phase 1 models (Phase 2 eval was through roboflow)
+     - rawImageAlignment.py: used to align the five datasets from the raw drone imagery. I needed help from claude for this though.. multithreading is hard
