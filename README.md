@@ -1,6 +1,7 @@
 # Large Scale Plastic Detection Pipeline via Machine Learning Augmented Remote Sensing
 
-Code and data for my research paper of the same title. The project asks two questions:
+Code and data for my research paper of the same title ([read the full paper](paper.pdf)).
+The project asks two questions:
 **which spectral band makes plastic litter easiest to detect from a drone**, and can that
 answer be turned into a detector accurate enough for real use?
 
@@ -97,6 +98,7 @@ large (about 1.4 GB).
 ## Repository layout
 
 ```
+paper.pdf                the full research paper
 terminal.py              entry point: runs preprocessing, training, and evaluation
 preprocess.py            UniChip: chipping, augmentation, dataset splits
 train.py                 Phase I detector training
