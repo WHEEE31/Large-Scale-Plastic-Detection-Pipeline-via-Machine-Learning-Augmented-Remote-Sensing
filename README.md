@@ -5,6 +5,10 @@ The project asks two questions:
 **which spectral band makes plastic litter easiest to detect from a drone**, and can that
 answer be turned into a detector accurate enough for real use?
 
+**Regeneron Science Talent Search Top 300 Scholar (2026).** Also a JSHS finalist, GENIUS
+Olympiad finalist, and 2nd place at WESEF (2025). Conducted as a research intern at the
+Lamont-Doherty Earth Observatory, Columbia University.
+
 ## Key findings
 
 - **Green beats near-infrared.** Across five spectral bands, the green band (560 nm) produced
